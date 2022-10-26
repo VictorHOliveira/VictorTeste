@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.11.0 on win32)" generated="20221026 22:16:38.987" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites" source="C:\Automacao\VictorTeste\suites">
+<suite id="s1-s1" name="Teste" source="C:\Automacao\VictorTeste\suites\teste.robot">
+<test id="s1-s1-t1" name="TC-001 - Teste Victor" line="6">
+<kw name="Given Teste de Log" library="teste">
+<msg timestamp="20221026 22:16:40.472" level="TRACE">Arguments: [  ]</msg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${analise_de_tempo_medio.IPT_PERIODO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221026 22:16:40.478" level="TRACE">Arguments: [ "(//label[text()='Periodo :']//following::input[@class='select-dropdown'])[1]" ]</msg>
+<msg timestamp="20221026 22:16:40.481" level="INFO">Clicking element '(//label[text()='Periodo :']//following::input[@class='select-dropdown'])[1]'.</msg>
+<msg timestamp="20221026 22:16:40.481" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221026 22:16:40.487" level="FAIL">No browser is open.</msg>
+<msg timestamp="20221026 22:16:40.510" level="DEBUG">Traceback (most recent call last):
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\__init__.py", line 496, in run_keyword
+    return DynamicCore.run_keyword(self, name, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\robotlibcore.py", line 94, in run_keyword
+    return self.keywords[name](*args, **(kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\keywords\element.py", line 658, in click_element
+    self.find_element(locator).click()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\base\context.py", line 82, in find_element
+    return self.element_finder.find(locator, tag, True, required, parent)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\locators\elementfinder.py", line 93, in find
+    return self._find(locators[-1], tag, first_only, required, element)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\locators\elementfinder.py", line 123, in _find
+    elements = strategy(criteria, tag, constraints, parent=parent or self.driver)
+                                                                     ^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\base\context.py", line 34, in driver
+    return self.ctx.driver
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\bruni\AppData\Local\Programs\Python\Python311\Lib\site-packages\SeleniumLibrary\__init__.py", line 570, in driver
+    raise NoOpenBrowser("No browser is open.")
+SeleniumLibrary.errors.NoOpenBrowser: No browser is open.</msg>
+<status status="FAIL" starttime="20221026 22:16:40.474" endtime="20221026 22:16:40.511"/>
+</kw>
+<status status="FAIL" starttime="20221026 22:16:40.471" endtime="20221026 22:16:40.515"/>
+</kw>
+<status status="FAIL" starttime="20221026 22:16:40.463" endtime="20221026 22:16:40.538">No browser is open.</status>
+</test>
+<doc>Teste</doc>
+<status status="FAIL" starttime="20221026 22:16:39.085" endtime="20221026 22:16:40.553"/>
+</suite>
+<status status="FAIL" starttime="20221026 22:16:38.993" endtime="20221026 22:16:40.567"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Teste">Suites.Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
