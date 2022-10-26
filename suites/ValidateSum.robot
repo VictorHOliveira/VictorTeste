@@ -6,4 +6,4 @@ Suite Teardown  Close Browser
 
 *** Test Cases ***
 TC-001 - Teste Victor
-    Given Teste de Log
+    Given the top banner is visible
