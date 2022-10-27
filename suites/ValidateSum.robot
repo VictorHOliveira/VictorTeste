@@ -5,7 +5,7 @@ Suite Setup  Open Browsers
 Suite Teardown  Close Browser
 
 *** Test Cases ***
-TC-001 - Search and add to cart
+TC-001 - Validation sum of articles
     Given search in a search bar for a dress
     And add this item with size "L" to cart
     And search in a search bar for a t-shirt

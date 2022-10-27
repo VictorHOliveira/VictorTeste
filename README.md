@@ -1,6 +1,12 @@
 # INTRODUCTION #
 This project is a test for a interview.
 
+# HOW TO RUN THIS PROJECT #
+1. Install Python, Robotfrmework and SeleniumLibrary;
+2. Open the project in a VSCode or another IDE of your preference;
+3. In a terminal run the command "python run_tests.py";
+4. And wait the tests run and the final report.
+
 # ABOUT ME #
 I'm Victor Oliveira, 35y, I'm from Brazil, but for now I live with my family in Portugal. I'm QA almost 10 years, which the inicial 4 years I worked wich manual testing at HSBC, before this I wokrking at SASCAR with manual andautomation system and hardware testing, with equipament of tracking of truck and load, only projects where I use C# and a little of JAVA. 
 
@@ -11,9 +17,3 @@ After this time I moving to Toro Investiments, an company that work with stock e
 And my last experience was as Specialist Automation with a team of 4 Seniors, but in this case it was more about support for the team, help with Base Project Mobile and Web, integrations with Jira, Zephyr, Azure, Grafana, Data Base, Browser Stack, Perfecto and send e-mail with Robotframework's final report. I traning too the client analysts with Robotframework and good practices of quality assurence.
 
 At this moment I moving with my family to Portugal, to working at Aubay, abig change in our lifes, but this is going great!
-
-# HOW TO RUN THIS PROJECT #
-1. Install Python, Robotfrmework and SeleniumLibrary;
-2. Open the project in a VSCode or another IDE of your preference;
-3. In a terminal run the command "python run_tests.py";
-4. And wait the tests run and the final report.
