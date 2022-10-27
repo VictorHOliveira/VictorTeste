@@ -16,3 +16,4 @@ Resource  ${ROOT}/resources/shared/hook.robot
 
 # PAGES - ELEMENTS/FEATURES
 Resource    ${ROOT}/resources/keywords/homePage.robot
+Resource    ${ROOT}/resources/keywords/searchItemPage.robot

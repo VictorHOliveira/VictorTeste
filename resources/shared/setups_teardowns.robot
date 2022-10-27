@@ -8,7 +8,6 @@ Library    SeleniumLibrary
 Open Browsers
     Open Browser  http://automationpractice.com/  chrome  options=add_experimental_option('excludeSwitches',['enable-logging'])
     Maximize Browser Window
-    Set Selenium Speed          1 seconds
 
 # TEARDOWNS
 Close Browser
