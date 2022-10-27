@@ -1,7 +1,6 @@
 *** Settings ***
-Documentation
+Documentation  Controller and PageObjects about Search Item
 Resource  ${ROOT}/resources/main.robot
-Library    SeleniumLibrary
 
 *** Variables ***
 &{searchItemPage}
@@ -9,6 +8,7 @@ Library    SeleniumLibrary
 
 *** Keywords ***
 wait the item is visible
-    Wait Until Element Is Visible    ${searchItemPage.img_firstItem}
-    Sleep  3s
-    Clear Element Text    ${homePage.input_searchBar}
+    Wait Until Element Is Visible    ${searchItemPage.img_firstItem}  5s
+
+click on a search article
+    Click Element  ${searchItemPage.img_firstItem}

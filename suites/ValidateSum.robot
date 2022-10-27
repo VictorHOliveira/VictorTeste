@@ -1,11 +1,12 @@
 *** Settings ***
-Documentation  Teste
+Documentation  Test Case about test of interview
 Resource  ${ROOT}/resources/main.robot
 Suite Setup  Open Browsers
 Suite Teardown  Close Browser
 
 *** Test Cases ***
 TC-001 - Validation sum of articles
+    [Tags]  TC-001
     Given search in a search bar for a dress
     And add this item with size "L" to cart
     And search in a search bar for a t-shirt

@@ -15,5 +15,7 @@ Resource  ${ROOT}/resources/shared/setups_teardowns.robot
 Resource  ${ROOT}/resources/shared/hook.robot
 
 # PAGES - ELEMENTS/FEATURES
-Resource    ${ROOT}/resources/keywords/homePage.robot
+Resource    ${ROOT}/resources/keywords/shoppingCartSummaryPage.robot
 Resource    ${ROOT}/resources/keywords/searchItemPage.robot
+Resource    ${ROOT}/resources/keywords/productPage.robot
+Resource    ${ROOT}/resources/keywords/homePage.robot
